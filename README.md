@@ -17,6 +17,7 @@ Develop an automated waste management system that uses the **Chain of Responsibi
 
 ## Design Pattern Used: Chain of Responsibility
 Each type of waste has a dedicated handler that processes the waste if it matches its category. Otherwise, it passes the request to the next handler in the chain.
+![Image](https://github.com/user-attachments/assets/02e00b85-5161-4a48-a1ed-0b25bfe59c07)
 
 ## Code Overview
 - `WasteContainer.java`: Defines the waste container attributes (`type` and `capacity`).
